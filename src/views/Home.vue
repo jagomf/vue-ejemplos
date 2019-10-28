@@ -111,9 +111,11 @@ export default {
       this.movies.push(newMovie);
     },
     onTick() {
+      // eslint-disable-next-line
       console.log('Tick');
     },
     onBoom() {
+      // eslint-disable-next-line
       console.log('Boom');
     },
   },
