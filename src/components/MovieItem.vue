@@ -18,9 +18,6 @@ export default {
   props: {
     movie: Object,
   },
-  data() {
-    return {};
-  },
   methods: {
     onReqDel() {
       this.$emit('delete-movie', this.movie.id);
